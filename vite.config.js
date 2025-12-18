@@ -3,9 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/TruthGuard-AIT/',
   build: {
-    outDir: 'dist',
-    assetsDir: 'assets'
+    outDir: 'dist'
   }
 })
