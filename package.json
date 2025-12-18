@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nothing123-a.github.io/TruthGuard-AIT"
   "name": "truthguard-ait",
   "private": false,
   "version": "1.0.0",
@@ -16,6 +17,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+    "predeploy": "npm run build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
