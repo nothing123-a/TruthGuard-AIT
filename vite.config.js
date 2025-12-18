@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/TruthGuard-AIT/',
   build: {
-    outDir: 'dist'
+    outDir: 'docs'
   }
 })
